@@ -1,0 +1,4 @@
+    if data_name in ['151669', '151670', '151671', '151672']:
+        n_clusters = 5
+    else:
+        n_clusters = 7
