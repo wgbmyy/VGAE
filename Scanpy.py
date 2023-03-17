@@ -8,7 +8,7 @@ import scanpy as sc
 sicle = '151672'
 dataset = 'DLPFC'
 results_file = f'output/DLPFC/{sicle}'
-input_dir = os.path.join('data', dataset, sicle)
+input_dir = os.path.join(dataset, sicle)
 
 adata = sc.read_visium(path=input_dir, count_file='filtered_feature_bc_matrix.h5')
 
